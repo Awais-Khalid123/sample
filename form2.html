@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         body{
+            margin: 0;
+            padding: 0;
+            color:white;
+            background-image: url(bg2.jpg);
+            background-size: cover;
+
+        }
+      .container{
+                   padding-top: 40px;
+                   width: 30%;
+                   margin: auto;
+        }
+        input{
+            width: 100%;
+            height: 30px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+         /* .submit{
+            padding: 5px 33px;
+            border-radius: 18px;
+            border: none;
+            background-color: rgb(48, 150, 233);
+            color: white; 
+        } */
+        .submit:hover{
+            background-color:  rgb(3, 96, 172);
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <h1 style="text-align: center;">SIGN IN</h1> 
+        <br>
+        <br> 
+        <form >
+        <label>First Name</label><br>
+        <input onfocusout="my()" id="Fname" type="text" placeholder="Enter Your Name..." ><br>
+        <label>Last Name</label><br>
+        <input type="text"><br>
+        <label>Email</label><br>
+        <input type="text"><br>
+        <label>Password</label><br>
+        <input type="text"><br>
+        <label>Phone</label><br>
+        <input type="text"><br><br>
+        <button type="submit5">Submit</button>
+    </form>
+    
+   </div>
+
+
+   <script>
+
+    function my(){
+    let a= document.getElementById("Fname").value;
+    reg =/^[A-Za-z]{2,5}$/;
+    if(reg.test(a)){
+        console.log("VAlid Entery")
+    }
+    else{
+        console.log("Please Enter Valid Email")
+       
+    }
+      }
+ </script>
+
+
+</body>
+</html>

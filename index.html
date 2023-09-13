@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            color:white;
+            background-image: url(bg-img.jpg);
+            background-size: cover;
+
+        }
+        .container{
+                   height: auto;
+                   padding-top: 60px;
+                   margin: auto;
+                   width: 80%;
+             
+        }
+        .text-input{
+            margin-right: 20px;
+            height: 25px;
+            border-radius: 10px;
+            border: none;
+        }
+        .submit{
+            padding: 5px 33px;
+            border-radius: 18px;
+            border: none;
+            background-color: rgb(48, 150, 233);
+            color: white;
+        }
+        .submit:hover{
+            background-color:  rgb(3, 96, 172);
+            color: white; 
+        }
+         input { 
+            /* display: block; */
+        } 
+        
+
+            </style>
+</head>
+<body>
+    <div class="container">
+        <center>
+            <button class="submit" onclick="document.location='#'">Sign Up</button>
+            <button class="submit"onclick="document.location='form2.html'">Sign In</button>
+            <button class="submit"onclick="document.location='form3.html'"">Go On Site</button>
+    <form action="#">
+        <h1 style="text-align: center;">Create  New Account</h1> 
+        <br>
+        <label for="f-name">First Name</label>
+        <input type="text" class="text-input">
+        <label for="f-name">Last Name</label>
+        <input type="text" class="text-input">
+        <br>
+        <br>
+        <label for="f-name">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" placeholder="Email adress" class="text-input">
+        <label for="f-name">Password&nbsp;&nbsp;</label>
+        <input type="password" class="text-input">
+        <br>
+        <br>
+        <label for="f-name">Address&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" class="text-input">
+        <label for="f-name">Phone &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" class="text-input">
+        <br>
+        <br>
+        <label for="f-name">
+            Gender
+        <input type="radio" id="radio">Male
+        <input type="radio" id="radio" >Female
+    </label>
+        <br>
+        <br>
+        <!-- <label for="DOB">DOB:&nbsp;&nbsp;&nbsp;</label> 
+        <label>Date</label>
+  <select id="DOB" name="DOB">
+    <option value="Jan">1</option>
+    <option value="Feb">2</option>
+    <option value="Mar">3</option>
+    <option value="Apr">4</option>
+  </select>
+  <label for="DOB">Month</label>
+  <select id="DOB" name="DOB">
+    <option value="Jan">Jan</option>
+    <option value="Feb">Feb</option>
+    <option value="Mar">Mar</option>
+    <option value="Apr">Apr</option>
+  </select>
+  <label for="DOB">Year</label>
+  <select id="DOB" name="DOB">
+    <option value="1990">1990</option>
+    <option value="1991">1991</option>
+    <option value="1992">1992</option>
+    <option value="1993">1993</option>
+    <option value="1993">1994</option>
+    <option value="1993">1995</option>
+  </select>
+        <br><br><br><br>-->
+        <br>
+        <br>
+        <input type="submit" class="submit">
+    </form>
+</center>
+</div>
+</body>
+</html>
